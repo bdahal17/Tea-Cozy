@@ -1,133 +1,136 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    font-family: helvetica;
-    font-size: 22px;
-    color: seashell;
-    background-color: black;
-    height: 100%;
-    opacity: 0.9;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  height: 100%;
+  opacity: 0.9;
 }
 
 /* logo */
 .logo {
-    height: 50px;
-    margin: 10px;
+  height: 50px;
+  margin: 10px;
 }
 
 /* header */
 header {
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    height: 69px;
-    position: fixed;
-    background-color: black;
-    top: 0;
-    border-bottom: 1px solid seashell;
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  height: 69px;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  border-bottom: 1px solid seashell;
 }
 
 .nav {
-    margin-left: auto;
-    list-style-type: none;
-    align-self: center;
+  margin-left: auto;
+  list-style-type: none;
+  align-self: center;
 }
 
 .nav li {
-    display: inline-block;
-    margin: 10px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .nav li a {
-    color: gray;
-    font-style: bold;
+  color: gray;
+  font-style: bold;
 }
 
 /* main */
 .main {
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
-    background-size: cover;
-    height: 700px;
-    margin: 69px 50px 0px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  margin: 69px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .text {
-    text-align: center;
-    background-color: black;
-    padding: 10px;
-
+  text-align: center;
+  background-color: black;
+  padding: 10px;
 }
 
 /* Second */
 .pic1 img {
-    height: 200px;
-    width: 300px;
+  height: 200px;
+  width: 300px;
 }
 
 .second {
-    border: 5px solid red;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  border: 5px solid red;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .secondtext {
-    border: 5px solid blue;
-    text-align: center;
-    width: 1000px;
+  border: 5px solid blue;
+  text-align: center;
+  width: 1000px;
 }
 
 .pic1 {
-    border: 5px solid white;
+  border: 5px solid white;
 }
 
 .pics {
-    border: 5px solid green;
-    width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
+  border: 5px solid green;
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* last */
 .last {
-    border: 5px solid white;
-    width: 1000px;
-    text-align: center;
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  border: 5px solid white;
+  width: 1000px;
+  text-align: center;
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wassup {
+  color: aliceblue;
+  font-size: 100px;
 }
 
 .section {
-    border: 5px solid orange;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
+  border: 5px solid orange;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .sec1 {
-    width: 300px;
-    height: 200px;
-    background-color: black;
+  width: 300px;
+  height: 200px;
+  background-color: black;
 }
 
 /* footer */
 .foot {
-    padding: 20px;
+  padding: 20px;
 }
