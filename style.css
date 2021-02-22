@@ -114,7 +114,7 @@ header {
 }
 
 .section {
-    border: 5px solid orange;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -126,6 +126,14 @@ header {
     height: 200px;
     background-color: black;
 }
+.picOne, .picTwo, .picThree {
+    background-image: url(https://images1.apartments.com/i2/UxljtKuGBnhsefiYj1A_FYUpqNv_YwFQGhWxm20k6p0/111/oakdale-delaware-oh-primary-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 /* footer */
 .foot {
