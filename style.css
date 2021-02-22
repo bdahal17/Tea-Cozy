@@ -138,4 +138,14 @@ header {
 /* footer */
 .foot {
     padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.copyright {
+    margin-right: auto;
+}
+.git a{
+    text-decoration: none;
+    color: white;
+    
 }
